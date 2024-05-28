@@ -1,0 +1,23 @@
+dependencies:
+  - jupyterlab  # JupyterLab for interactive notebooks
+  - ipywidgets  # Interactive widgets for Jupyter notebooks
+  - numpy  # Fundamental package for array computing
+  - scipy  # Scientific computing package
+  - scikit-learn  # Machine learning library
+  - pandas  # Data manipulation and analysis library
+  - matplotlib  # Plotting library
+  - seaborn  # Statistical data visualization library
+  - zstandard  # Compression library
+  - bokeh=2.4.1  # Interactive visualization library
+  - pip  # Python package installer
+  - pip:
+    - tensorflow==2.11.0  # Specific version of TensorFlow
+    - jupyterlab-nvdashboard  # GPU dashboard extension for JupyterLab
+    - jupyterlab-tensorboard-pro  # TensorBoard extension for JupyterLab
+    - torch==1.13.1  # Specific version of PyTorch
+    - torchvision==0.14.1  # Computer vision package for PyTorch
+    - torchaudio==0.13.1  # Audio package for PyTorch
+    - tqdm  # Progress bar library
+    - pytorch-lightning  # High-level interface for PyTorch
+    - pytorch-optimizer  # Optimizers for PyTorch
+    - tensorflow==2.11.0  # Install it again
